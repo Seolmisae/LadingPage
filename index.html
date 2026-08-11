@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="몰입을 습관으로 만드는 집중력 타이머, Modo." />
+  <title>Modo — 나만의 집중 리듬</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="brand" href="#top" aria-label="Modo 홈">
+        <span class="brand-mark"><span></span></span>
+        <span>modo</span>
+      </a>
+      <div class="nav-links">
+        <a href="#how">사용법</a>
+        <a href="#features">기능</a>
+        <a href="#reviews">후기</a>
+      </div>
+      <a class="nav-cta" href="#timer">집중 시작하기 <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow"><span></span> 매일 조금씩, 더 깊게</div>
+      <h1>흐트러진 하루를<br><em>몰입의 리듬</em>으로.</h1>
+      <p class="hero-copy">해야 할 일은 많은데 집중이 안 되나요?<br>Modo가 가장 단순한 방법으로 몰입을 시작하게 해드려요.</p>
+      <div class="hero-actions">
+        <a class="primary-btn" href="#timer">지금 집중 시작하기 <span>→</span></a>
+        <a class="text-btn" href="#how"><span class="play">▶</span> 1분 만에 알아보기</a>
+      </div>
+      <div class="trust-row">
+        <div class="avatars" aria-hidden="true">
+          <span>🙂</span><span>👩🏻</span><span>🧑🏽</span><span>👨🏻</span>
+        </div>
+        <div><strong>12,000+</strong><small>오늘도 함께 집중 중</small></div>
+      </div>
+    </section>
+
+    <section class="timer-stage" id="timer" aria-label="집중 타이머">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="timer-card">
+        <div class="timer-top">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>나의 집중 세션</span>
+          <button class="sound-toggle" type="button" aria-label="소리 켜기" aria-pressed="false">⌁</button>
+        </div>
+        <div class="mode-tabs" role="tablist" aria-label="타이머 모드">
+          <button class="mode active" data-minutes="25" role="tab" aria-selected="true">집중</button>
+          <button class="mode" data-minutes="5" role="tab" aria-selected="false">짧은 휴식</button>
+          <button class="mode" data-minutes="15" role="tab" aria-selected="false">긴 휴식</button>
+        </div>
+        <div class="timer-display" aria-live="polite">25:00</div>
+        <p class="timer-prompt">지금 가장 중요한 한 가지에 집중해보세요.</p>
+        <div class="timer-controls">
+          <button class="reset-btn" type="button" aria-label="타이머 초기화">↺</button>
+          <button class="start-btn" type="button"><span>▶</span> 시작하기</button>
+          <button class="skip-btn" type="button" aria-label="다음 모드">↠</button>
+        </div>
+        <div class="session-progress">
+          <span>오늘의 세션</span>
+          <div class="session-dots"><i class="done"></i><i class="done"></i><i></i><i></i></div>
+          <strong>2 / 4</strong>
+        </div>
+      </div>
+      <div class="float-card task-float"><span>✓</span><div><small>방금 완료했어요</small><strong>기획서 초안 작성</strong></div></div>
+      <div class="float-card stat-float"><strong>3.5h</strong><small>이번 주 집중</small><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+    </section>
+
+    <section class="steps" id="how">
+      <div class="section-heading">
+        <span class="kicker">HOW IT WORKS</span>
+        <h2>집중은, 복잡할 필요 없어요.</h2>
+        <p>단 세 단계로 몰입의 순간을 만들어보세요.</p>
+      </div>
+      <div class="step-grid">
+        <article><span class="step-no">01</span><div class="step-icon">◎</div><h3>할 일을 정하고</h3><p>지금 끝내고 싶은 한 가지를<br>선택하세요.</p></article>
+        <article><span class="step-no">02</span><div class="step-icon">◷</div><h3>타이머를 시작하고</h3><p>25분 동안 방해 없이<br>한 가지에만 몰입하세요.</p></article>
+        <article><span class="step-no">03</span><div class="step-icon">↗</div><h3>성장을 확인하세요</h3><p>쌓여가는 집중 시간과<br>완료한 일을 한눈에 보세요.</p></article>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="feature-copy">
+        <span class="kicker">YOUR FOCUS, YOUR WAY</span>
+        <h2>당신의 리듬에<br>딱 맞는 집중.</h2>
+        <p>일하는 방식은 모두 다르니까.<br>Modo는 나만의 몰입 습관을 만들 수 있게 도와줘요.</p>
+        <ul>
+          <li><span>✓</span><div><strong>나만의 타이머</strong><small>집중과 휴식 시간을 자유롭게 설정</small></div></li>
+          <li><span>✓</span><div><strong>몰입 사운드</strong><small>빗소리, 카페, 백색소음으로 깊은 집중</small></div></li>
+          <li><span>✓</span><div><strong>집중 리포트</strong><small>매일의 변화와 성장을 한눈에 확인</small></div></li>
+        </ul>
+      </div>
+      <div class="dashboard" id="reviews">
+        <div class="dash-head"><span>이번 주 리포트</span><b>•••</b></div>
+        <div class="dash-stat"><div><small>총 집중 시간</small><strong>12시간 40분</strong><em>↗ 지난주보다 18%</em></div><div class="ring"><span>82<small>%</small></span></div></div>
+        <div class="chart" aria-label="요일별 집중 시간 차트">
+          <i style="height:42%"><small>월</small></i><i style="height:68%"><small>화</small></i><i style="height:51%"><small>수</small></i><i class="hot" style="height:88%"><small>목</small></i><i style="height:72%"><small>금</small></i><i style="height:35%"><small>토</small></i><i style="height:48%"><small>일</small></i>
+        </div>
+        <div class="dash-bottom"><span>가장 집중한 시간대</span><strong>오전 10시 — 12시</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-mark"><span></span></span><span>modo</span></div>
+    <p>오늘의 25분이 내일의 나를 바꿔요.</p>
+    <a href="#top">맨 위로 ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
